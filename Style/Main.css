@@ -1,0 +1,153 @@
+html, body {
+    padding:0;
+    margin:0;
+    font-family: "BankGothic";
+    font-size: 17px;
+}
+#page {
+    min-height:100%;
+    position:relative;
+    height:100%;
+}
+#header {
+    background-color:#505050;
+    height:50px;
+    width:100%;
+}
+
+#footer {
+    position:fixed;
+    width:100%;
+    bottom:0;
+    height:55px;
+    background-color: #505050;
+}
+
+
+#footer h3 {
+    text-align:center;
+    font-size:24px;
+    color:#FFFFFF;
+    right: 20px;
+    top:20px;
+    font-weight:bold;
+    font-family: Courier, Monaco, monospace; /*Provided default font*/
+    float:right;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-decoration:none;
+}
+
+#header img {
+    float:left;
+    display:inline;
+}
+#header h2 {
+    text-align:center;
+    font-size:22px;
+    color:#222;
+    font-weight:bold;
+    font-family: BankGothic, Courier, Monaco, monospace;
+    float:left;
+    margin-left:20px;
+    text-decoration:none;
+    position: relative;
+    bottom:5px;
+}
+#header h2, a, a:visited, a:hover, a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#nav {
+    background-color: #222;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: right;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+}
+#nav ul li:hover ul {
+    display: block;
+    background: #333;
+    color: #FFFFFF;
+}
+#nav ul li img{
+    vertical-align: middle;
+    padding-left: 10px;
+    width: 20px;
+    height: 20px;
+    align-items: right;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    text-align: left;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #000000;
+    background: #FFFFFF;
+}
+
+#generator h3{
+    text-align:Left;
+    font-size:18px;
+    color:#505050;
+    font-weight:bold;
+    font-family: Courier, Monaco, monospace;
+}
+#generator br{
+    display: inline-block;
+}
+td{
+    font-family: Courier, Monaco, monospace;
+    color: #FFFFFF;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #282830;
+}
+
+table{
+    font-size:12px;
+    color:#333333;
+    width: auto;
+    border-width: thick;
+    border-color: #282830;
+    border-collapse: collapse;
+
+}
+
+

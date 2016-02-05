@@ -3,8 +3,8 @@
 <form>
     <div id="generator">
         <h3>Column:</h3> <br><input type="number" name="column" id="column"><br>
-        <h3>Row:</h3> <br><input type="number" name="row" id="row"><br>w
-        <input typ``e="submit" value="Submit" formaction="Landing-Page.php">
+        <h3>Row:</h3> <br><input type="number" name="row" id="row"><br>
+        <input type="submit" value="Submit" formaction="Table Generator.php">
         <?php
         echo "<table>";
         if (isset($_GET['column']) && !empty($_GET['column'])) {
